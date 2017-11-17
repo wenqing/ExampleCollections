@@ -1,10 +1,8 @@
 #include <iostream>
 #include <fstream>
-#include <vector>
 #include <algorithm>
-#include <numeric>
 
-// Compile: g++ -std=c++11 -o analytical_soltion analytical_soltion.cpp 
+// Compile: g++ -std=c++11 -o analytic_solution analytic_solution.cpp
 
 using namespace std;
 
@@ -39,7 +37,8 @@ int main(int argc, char *argv[])
   const int n = 50;
   const double dr = (R2 - R1) / n;
 
-  ofstream os ("analytic_solutions.txt", ios::trunc);
+  string file_name = "analytic_solutions.txt";
+  ofstream os (file_name.data(), ios::trunc);
   for (int i=0; i<=n ; i++)
   {
     const double r = R1 + dr * i;
@@ -51,5 +50,6 @@ int main(int argc, char *argv[])
     os << r - R1 << " " << T_r << " " << u << " " << s_r << endl;  
   }
 
+  cout <<"Solutions are written to file " << file_name << endl;
   return 0;
 }
