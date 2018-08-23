@@ -8,7 +8,7 @@ $OVERALL_COUPLING
 ; method error_tolerance max_iterations theta precond storage
   2      0 1.e-10       2000           1.0   100       4
 $COUPLED_PROCESS
-  HEAT_TRANSPORT 2 2
+  HEAT_TRANSPORT 3 4
 $COUPLING_CONTROL
 ;error_method -- tolerances
  LMAX            1.e+7
@@ -19,10 +19,10 @@ $COUPLING_CONTROL
 ; method error_tolerance max_iterations theta precond storage
   2      0 1.e-10       3000           1.0   100      4
  $COUPLED_PROCESS
-    LIQUID_FLOW 2 2
+    LIQUID_FLOW 3 4
   $COUPLING_CONTROL
 ;error_method -- tolerances
- LMAX            100
+ LMAX            370
 #NUMERICS
  $PCS_TYPE
   DEFORMATION
