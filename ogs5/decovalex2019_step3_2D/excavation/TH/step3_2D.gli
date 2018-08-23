@@ -81,7 +81,7 @@
  $NAME
   arc
  $EPSILON
-  1.0e-4
+  1.0e-3
  $POINTS
 4
 5
