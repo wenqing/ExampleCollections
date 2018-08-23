@@ -1,0 +1,35 @@
+GeoSys-NUM: Numerical Parameter ----------------------------------------
+$OVERALL_COUPLING
+1 1
+#NUMERICS
+ $PCS_TYPE
+  LIQUID_FLOW
+ $LINEAR_SOLVER 
+; method error_tolerance max_iterations theta precond storage
+  2      0 1.e-10       2000           1.0   100       4
+$COUPLED_PROCESS
+  HEAT_TRANSPORT 2 2
+$COUPLING_CONTROL
+;error_method -- tolerances
+ LMAX            1.e+7
+#NUMERICS
+ $PCS_TYPE
+  HEAT_TRANSPORT
+ $LINEAR_SOLVER 
+; method error_tolerance max_iterations theta precond storage
+  2      0 1.e-10       3000           1.0   100      4
+ $COUPLED_PROCESS
+    LIQUID_FLOW 2 2
+  $COUPLING_CONTROL
+;error_method -- tolerances
+ LMAX            100
+#NUMERICS
+ $PCS_TYPE
+  DEFORMATION
+ $LINEAR_SOLVER 
+; method error_tolerance max_iterations theta precond storage
+  2      0 1.e-10       3000           1.0   100      4
+  $COUPLING_CONTROL
+;error_method -- tolerances
+ LMAX            1.
+#STOP

@@ -1,0 +1,24 @@
+GeoSys-OUT: Output ------------------------------------------------
+#TIME_STEPPING
+ $PCS_TYPE
+  LIQUID_FLOW
+ $TIME_STEPS
+ 1088 1.0
+ $TIME_END
+  1088
+ $TIME_START
+  0.0
+ $TIME_UNIT
+  DAY 
+#TIME_STEPPING
+ $PCS_TYPE
+  HEAT_TRANSPORT
+ $TIME_STEPS
+ 1088 1.0
+ $TIME_END
+  1088
+ $TIME_START
+  0.0
+ $TIME_UNIT
+  DAY  
+#STOP

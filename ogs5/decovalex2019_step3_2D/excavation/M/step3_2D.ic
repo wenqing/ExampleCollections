@@ -1,0 +1,43 @@
+GeoSys-IC: Initial Conditions ------------------------------------------------
+#INITIAL_CONDITION
+ $PCS_TYPE
+  DEFORMATION
+ $PRIMARY_VARIABLE
+  STRESS_ZZ
+ $GEO_TYPE
+  SUB_DOMAIN
+   2
+   0   -11.4e6
+   1   -11.4e6 
+#INITIAL_CONDITION
+ $PCS_TYPE
+  DEFORMATION
+ $PRIMARY_VARIABLE
+  STRESS_XX
+ $GEO_TYPE
+  SUB_DOMAIN
+   2
+   0   -7.7e6
+   1   -7.7e6 
+#INITIAL_CONDITION
+ $PCS_TYPE
+  DEFORMATION
+ $PRIMARY_VARIABLE
+  STRESS_YY
+ $GEO_TYPE
+  SUB_DOMAIN
+   2
+   0   -8.0e6
+   1   -8.0e6
+#STOP
+Total Stress:
+ sxx = -11.4e6  (2D: off-plane, STRESS_ZZ)
+ syy = -7.7e6   (2D: STRESS_XX)
+ szz = -8.0e6   (2D: STRESS_YY)
+Pore pressure = 4.7e6
+
+Effective Stress:
+ sxx = -16.1e+6+4.7e6=-11.4e6
+ syy = -12.4e+6+4.7e6=-7.7e6
+ szz = -12.7e+6+4.7e6=-8e6
+

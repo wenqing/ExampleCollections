@@ -1,0 +1,16 @@
+GeoSys-MAT-FP: Fluid Properties ------------------------------------
+#FLUID_PROPERTIES
+ $FLUID_TYPE
+  WATER
+ $PCS_TYPE
+  PRESSURE1
+ $DENSITY
+   8
+ $SPECIFIC_HEAT_CAPACITY
+  1  4.280000e+003  //J/kgC
+ $VISCOSITY
+  9 Water 
+ $HEAT_CONDUCTIVITY
+  1 0.6
+#STOP
+

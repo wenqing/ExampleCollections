@@ -1,0 +1,25 @@
+GeoSys-MMP: Material Medium Properties ------------------------------------
+#MEDIUM_PROPERTIES    // 0  Rock mass
+ $GEOMETRY_DIMENSION
+  2
+ $GEOMETRY_AREA
+  1.000000e+000
+ $POROSITY
+  1 0.15
+ $STORAGE
+  1 0.
+ $PERMEABILITY_TENSOR
+  ANISOTROPIC 4.e-20      0    0   0       4.e-20       0    0.     0     1.0e-20
+#MEDIUM_PROPERTIES    // 1  heater inner
+ $GEOMETRY_DIMENSION
+  2
+ $GEOMETRY_AREA
+  1.000000e+000
+ $POROSITY
+  1 0.15
+ $STORAGE
+  1 0.
+ $PERMEABILITY_TENSOR
+  ANISOTROPIC 4.e-20      0    0   0       4.e-20       0    0.     0     1.0e-20
+#STOP
+
