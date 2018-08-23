@@ -5,14 +5,14 @@ GINA4 - Solid Properties
   $ELASTICITY
     POISSION  0.3
     YOUNGS_MODULUS
- 10   4e9 3.e9 0.33  1.1278e9  0. 0. 1.0
+ 10   4e9 3.e9 0.33  1.1278e9  0. 1. 0.0
 #SOLID_PROPERTIES
  $DENSITY
     1 -2.5e03
   $ELASTICITY
     POISSION  0.33
     YOUNGS_MODULUS
- 10   4e9 3.e9 0.33  1.1278e9  0. 0. 1.0
+ 10   4e9 3.e9 0.33  1.1278e9  0. 1. 0.0
     $EXCAVATION 
     1  
 #STOP
