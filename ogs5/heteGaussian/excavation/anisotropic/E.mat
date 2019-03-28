@@ -1,0 +1,10 @@
+<data>
+    <variable_name> YoungsModulus </variable_name>
+    <gaussian>  3.6e9 1.0e9  1.0e9 5.0e9 </gaussian>
+    <gaussian>  3.6e9 1.0e9  1.0e9 6.0e9 </gaussian>
+    <gaussian>  3.6e9 1.0e9  1.0e9 8.0e9 </gaussian>
+    <gaussian> 12.8e9  3.7e+9  5.5e9 20.1e9 </gaussian>
+    <gaussian> 8.5e9 2.7e9 4.0e9 12.8e9 </gaussian>
+    <gaussian> 7.0e9 2.1e9 3.7e9 10.7e9 </gaussian>
+    <gaussian> 12.5e9 5.4e9 3.8e9 21.8e9 </gaussian>
+</data>

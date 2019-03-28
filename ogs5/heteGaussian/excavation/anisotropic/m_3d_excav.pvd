@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<VTKFile type="Collection" version="0.1" byte_order="LittleEndian" compressor="vtkZLibDataCompressor">
+  <Collection>
+    <DataSet timestep="0.000000000000e+000" group="" part="0" file="m_3d_excav_0.vtu"/>
+    <DataSet timestep="1.000000000000e+000" group="" part="0" file="m_3d_excav_1.vtu"/>
+    <DataSet timestep="2.000000000000e+000" group="" part="0" file="m_3d_excav_2.vtu"/>
+    <DataSet timestep="3.000000000000e+000" group="" part="0" file="m_3d_excav_3.vtu"/>
+    <DataSet timestep="4.000000000000e+000" group="" part="0" file="m_3d_excav_4.vtu"/>
+    <DataSet timestep="5.000000000000e+000" group="" part="0" file="m_3d_excav_5.vtu"/>
+    <DataSet timestep="6.000000000000e+000" group="" part="0" file="m_3d_excav_6.vtu"/>
+  </Collection>
+</VTKFile>
